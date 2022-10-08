@@ -38,7 +38,11 @@
   height: 100%;
   padding: 0 129px;
   position: relative;
-  width: 1768px;
+  flex: 1;
+}
+
+.main {
+  padding: 0 129px;
 }
 
 .logo {
