@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -11,12 +14,14 @@
 
 .side-bar {
   background-color: #191718;
-
   width: 150px;
+  flex-shrink: 1;
+  height: 100%;
 }
 
 .nav-links {
   list-style: none;
+  font-size: 16px;
 }
 
 .nav-item {
@@ -29,10 +34,59 @@
   color: #fff;
 }
 
-.main {
+.content {
+  height: 100%;
   padding: 0 129px;
+  position: relative;
+  width: 1768px;
 }
 
 .logo {
   width: 310px;
+  height: 122px;
+  margin: 20px auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.intro {
+  background-color: #efefef;
+  text-align: center;
+  padding: 38px 269px;
+}
+
+.features {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+}
+
+.card .card-title {
+  margin-bottom: 18px;
+}
+
+.card img {
+  float: left;
+  margin-right: 16px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 78px;
+
+  border-top: 1px solid #dedede;
+  padding: 30px 129px;
 }
