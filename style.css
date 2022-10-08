@@ -62,7 +62,7 @@
 }
 
 .btn-toggle {
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 30px;
   cursor: pointer;
