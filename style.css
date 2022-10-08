@@ -117,6 +117,7 @@
 
   border-top: 1px solid #dedede;
   padding: 30px 129px;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1400px) {
