@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.side-bar {
+  background-color: #191718;
+
+  width: 150px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-item {
+  padding: 10px;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  padding: 0 129px;
+}
+
+.logo {
+  width: 310px;
+}
