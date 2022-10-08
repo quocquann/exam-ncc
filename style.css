@@ -33,6 +33,10 @@
   border-bottom: 1px solid #5c5c5c;
 }
 
+.nav-item:hover {
+  background-color: #5c5c5c;
+}
+
 .nav-item a {
   text-decoration: none;
   color: #fff;
@@ -42,7 +46,6 @@
   height: 100%;
   padding: 0 129px;
   position: relative;
-  /* height: auto; */
   flex: 1;
   display: flex;
   flex-direction: column;
